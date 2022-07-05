@@ -1,5 +1,6 @@
 import "./Sidebar.css"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import { UilEstate, UilUsersAlt, UilSignin } from '@iconscout/react-unicons'
 
 function Sidebar(){
@@ -11,14 +12,14 @@ function Sidebar(){
                     <h1><button onClick={()=> {setNavExpanded(!isNavExpanded)}}><i class="bi bi-list"></i></button> Digilab</h1>
                 </div>
                 <div className={ isNavExpanded ? "navbar-expand expand-nav" : "navbar-expand"}>
-                    <li className="nav-item-expand"><a href="#"><UilEstate /> Home</a></li>
+                    <li className="nav-item-expand"><Link to="/"><UilEstate /> Home</Link></li>
                     <li className="nav-item-expand"><a href="#"><UilUsersAlt /> Organizer</a></li>
                     <li className="nav-item-expand"><a href="#"><UilSignin /> Recruitment</a></li>
                 </div>
             </div>
             <div className="sidebar">
                 <div className="nav">
-                    <a className="nav-item" href="#"><UilEstate /> Home</a>
+                    <Link className="nav-item" to="/"><UilEstate /> Home</Link>
                     <a className="nav-item" href="#"><UilUsersAlt /> Organizer</a>
                     <a className="nav-item" href="#"><UilSignin /> Join Us</a>
                 </div>
