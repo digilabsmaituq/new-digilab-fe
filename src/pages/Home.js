@@ -1,5 +1,5 @@
 import "./Home.css"
-import banner from "../images/stock1.jpg"
+import logo from "../images/digilab_logo2.png"
 import vision from "../images/magnifying-glass.png"
 import galeri from "../data/activity.json"
 
@@ -9,6 +9,7 @@ function Home(){
         <div className="home">
             <section id="About">
                 <div className="banner">
+                    <img className="logo" src={ logo } />
                     <p>Welcome to <br /> Digilab Official Website</p>
                     <h1>Tech Community of Ummul Quro Bogor Highschool</h1>
                 </div>

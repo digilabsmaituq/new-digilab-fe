@@ -47,6 +47,7 @@
 
 .sidebar-mobile button{
     border: 0;
+    border-radius: 10px;
     background: none;
     color: white;
 }
@@ -72,6 +73,8 @@
 
 .social {
     background: linear-gradient(to right, #A43931, #1D4350);
+    font-family: 'Righteous', cursive;
+    bottom: 0;
     padding: 8px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -84,6 +87,12 @@
 .bi {
     font-size: 24px;
     margin-left: 5px;
+}
+
+@media screen and (min-height:800px) {
+    .nav {
+        height: 85%;
+    }
 }
 
 @media screen and (max-width:576px) {

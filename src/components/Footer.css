@@ -8,6 +8,7 @@ footer p {
 
 @media screen and (max-width:576px) {
     footer {
-        padding:0;
+        padding:5%;
+        font-size: 10px;
     }
 }
