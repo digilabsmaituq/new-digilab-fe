@@ -1,35 +1,34 @@
-
-li {
-    list-style: none;
-}
-
-ul {
-    height: 76%;
-}
-
 .sidebar{
-    
-    border-right: solid 1px black;
     height: 100%;
     width: 200px;
     position: fixed;
     padding: 0 20px;
     text-align: right;
+    border-right: solid 1px #c3ddff;
+}
+
+.nav {
+    height: 78%;
+    margin-top: 5%;
 }
 
 .sidebar-mobile {
     display: none;
     font-family: 'Montserrat', sans-serif;
-    color: black;
-    background-color: white;
-    border-bottom: solid 1px black;
+    color: white;
+    background: linear-gradient(to right, #A43931, #1D4350);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     width: 100%;
     position: fixed;
     top: 0;
 }
 
+.sidebar i {
+    color: white;
+}
+
 .navbar-expand {
-    background-color: black;
+    background: linear-gradient(to right, #A43931, #1D4350);
     color: white;
     font-size: 22px;
     display: none;
@@ -42,6 +41,7 @@ ul {
 .nav-item-expand {
     padding: 5%;
     transition: 0.2s;
+    list-style: none;
 }
 
 .sidebar-mobile button{
@@ -52,19 +52,28 @@ ul {
 
 .nav-item {
     font-size: 24px;
-    margin: 2% 0;
-    color: rgb(95, 95, 95);
+    padding: 8px;
+    display: list-item;
+    list-style: none;
+    border-radius: 10px;
+    
 }
 
 .nav-item:hover {
-    color: black;
-    font-size: 26px;
-    transition: 0.5s;
+    background: linear-gradient(to right, #A43931, #1D4350); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .nav-item a:focus {
-    color: black;
-    font-size: 26px;
+    background: linear-gradient(to right, #A43931, #1D4350); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.social {
+    background: linear-gradient(to right, #A43931, #1D4350);
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .social h1 {

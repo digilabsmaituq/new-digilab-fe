@@ -7,10 +7,28 @@
     border-radius: 10px;
 }
 
+.home {
+    margin: 0 5%;
+}
+
+.home h1 {
+    font-size: 32px;
+}
+
+.home p {
+    font-size: 20px;
+}
+
 #About {
-    margin: 0 auto;
     width: 95%;
-    font-size: 24px;
+}
+
+.vision {
+    background: linear-gradient(to right, #A43931, #1D4350); 
+    padding: 1px 8px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: right;
 }
 
 .vision-img {
@@ -23,16 +41,10 @@
 
 #Gallery {
     width: 95%;
-    margin: 0 auto;
-    font-size: 24px;
 }
 
 #Gallery h1 {
     text-align: center;
-}
-
-#Gallery p {
-    font-size: 20px;
 }
 
 #Gallery h2 {
@@ -48,7 +60,8 @@
 }
 
 .gallery-card {
-    padding: 10px 5px;
+    padding: 15px 10px;
+    border-radius: 5px;
 }
 
 .gallery-card p {
@@ -56,15 +69,17 @@
 }
 
 .gallery-card:hover {
-    background-color: rgb(209, 209, 209);
-    border-radius: 5px;
+    background: linear-gradient(to right, #A43931, #1D4350); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     transition: 0.2s;
 }
 
+#Team {
+    display: none;
+}
+
 @media screen and (min-height:800px) {
-    .home {
-        margin-left: 20px;
-    }
+
   }
   
 @media screen and (max-width:576px) {
@@ -82,10 +97,15 @@
         margin: 0;
         width: 100%;
     }
+    #About p, #About h1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .vision-img {
-        width: 100%;
+        width: 80%;
         height: auto;
-        margin: 0;
+        margin: 6px auto;
+        display: block;
     }
     .gallery-img {
         margin: 0 auto;
@@ -95,6 +115,11 @@
     .gallery-card {
         width: 100%;
         text-align: center;
-        padding: 0;
+        padding: 5% 0;
+        border-radius: 0;
+    }
+    .vision {
+        margin: 5px 0;
+        border-radius: 0;
     }
   }
