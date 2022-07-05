@@ -1,11 +1,14 @@
 .banner {
     background: linear-gradient(to right, #A43931, #1D4350); 
-    margin: 0;
-    padding: 17% 5%;
+    padding: 17% 0;
     width: 100%;
     height: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.banner-content {
+    margin: 0 5%;
 }
 
 .banner h1, .banner p {
@@ -47,8 +50,8 @@
 .vision {
     background: linear-gradient(to right, #A43931, #1D4350); 
     padding: 1px 8px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
     text-align: right;
 }
 
@@ -73,7 +76,7 @@
 }
 
 .gallery-img {
-    border-radius: 5px;
+    border-radius: 15px;
     width: 288px;
     height: 200px;
     object-fit: cover;
@@ -82,7 +85,7 @@
 
 .gallery-card {
     padding: 15px 10px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .gallery-card p {
@@ -146,13 +149,16 @@
     .gallery-img {
         margin: 0 auto;
         display: block;
+        width: 90%;
     }
     
     .gallery-card {
-        width: 100%;
+        margin: 2% 5%;
         text-align: center;
         padding: 5% 0;
-        border-radius: 0;
+        border-radius: 15px;
+        background: linear-gradient(to right, #A43931, #1D4350); 
+
     }
     .vision {
         margin: 5px 0;

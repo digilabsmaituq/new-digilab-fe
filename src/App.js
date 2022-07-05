@@ -11,7 +11,7 @@ function App() {
             <div className="col-s">
               <Sidebar />
             </div>
-            <div className="col-m">
+            <div className="col-l">
               <Routes>
                 <Route path="/" element={<Home />} />
               </Routes>

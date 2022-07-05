@@ -2,6 +2,7 @@ import "./Home.css"
 import logo from "../images/digilab_logo2.png"
 import vision from "../images/magnifying-glass.png"
 import galeri from "../data/activity.json"
+import { UilLightbulbAlt } from '@iconscout/react-unicons'
 
 function Home(){
     document.title="Digilab | Home"
@@ -9,12 +10,13 @@ function Home(){
         <div className="home">
             <section id="About">
                 <div className="banner">
-                    <img className="logo" src={ logo } />
-                    <p>Welcome to <br /> Digilab Official Website</p>
-                    <h1>Tech Community of Ummul Quro Bogor Highschool</h1>
+                    <div className="banner-content">
+                        <img className="logo" src={ logo } />
+                        <p>Welcome to <br /> Digilab Official Website</p>
+                        <h1>Tech Community of Ummul Quro Bogor Highschool</h1>
+                    </div>
                 </div>
                 <div className="what">
-                    <h1>What is <span>Digilab</span>?</h1>
                     <p>DigiLab is an IT community based on Ummul Quro Bogor Islamic High School. This is a place where students from Ummul Quro High School could improve or learn new IT skills.</p>
                 </div>
                 <div className="row">
@@ -46,10 +48,10 @@ function Home(){
                 <h1>Our Activities</h1>
                 <div className="row">
                     {galeri.map((data)=>(
-                        <div className="col-s">
+                        <div className="col-m">
                             <div className="gallery-card">
                                 <img className="gallery-img" src={data.img} />
-                                <h2>{data.name}</h2>
+                                <h2><UilLightbulbAlt /> {data.name}</h2>
                                 <p>{data.desc}</p>
                             </div>
                         </div>
