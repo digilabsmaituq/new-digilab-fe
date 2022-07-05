@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .sidebar{
     height: 100%;
     width: 200px;
@@ -14,10 +16,9 @@
 
 .sidebar-mobile {
     display: none;
-    font-family: 'Montserrat', sans-serif;
     color: white;
+    font-family: 'Righteous', cursive;
     background: linear-gradient(to right, #A43931, #1D4350);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -47,7 +48,7 @@
 .sidebar-mobile button{
     border: 0;
     background: none;
-    color: black;
+    color: white;
 }
 
 .nav-item {

@@ -2,15 +2,20 @@ import "./Home.css"
 import banner from "../images/stock1.jpg"
 import vision from "../images/magnifying-glass.png"
 import galeri from "../data/activity.json"
-import { UilAirplay } from '@iconscout/react-unicons'
 
 function Home(){
+    document.title="Digilab | Home"
     return(
         <div className="home">
             <section id="About">
-                <img className="banner" src={ banner } />
-                <h1>What is <span>Digilab</span>?</h1>
-                <p>DigiLab is an IT community based on Ummul Quro Bogor Islamic High School. This is a place where students from Ummul Quro High School could improve or learn new IT skills.</p>
+                <div className="banner">
+                    <p>Welcome to <br /> Digilab Official Website</p>
+                    <h1>Tech Community of Ummul Quro Bogor Highschool</h1>
+                </div>
+                <div className="what">
+                    <h1>What is <span>Digilab</span>?</h1>
+                    <p>DigiLab is an IT community based on Ummul Quro Bogor Islamic High School. This is a place where students from Ummul Quro High School could improve or learn new IT skills.</p>
+                </div>
                 <div className="row">
                     <div className="col">
                         <img className="vision-img" src={ vision } />

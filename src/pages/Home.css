@@ -1,10 +1,19 @@
 .banner {
-    display: block;
-    margin: 2% auto;
+    background: linear-gradient(to right, #A43931, #1D4350); 
+    margin: 0;
+    padding: 20% 5%;
     width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.banner h1, .banner p {
+    margin: 0;
+}
+
+.banner br {
+    display: none;
 }
 
 .home {
@@ -21,6 +30,10 @@
 
 #About {
     width: 95%;
+}
+
+.what {
+    padding: 5% 0;
 }
 
 .vision {
@@ -90,8 +103,20 @@
     }
     .banner {
         width: 100%;
-        height: 300px;
-        border-radius: 0;
+        height: auto;
+        padding: 30% 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .banner h1{
+        font-size: 28px;
+        margin: 15px 0;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .banner br{
+        display: block;
     }
     #About, #Gallery {
         margin: 0;
