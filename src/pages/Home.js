@@ -1,6 +1,8 @@
 import "./Home.css"
 import logo from "../images/digilab_logo2.png"
 import vision from "../images/magnifying-glass.png"
+import dev from "../images/kindle.png"
+import create from "../images/responsive-device.png"
 import galeri from "../data/activity.json"
 import { UilLightbulbAlt } from '@iconscout/react-unicons'
 
@@ -32,20 +34,38 @@ function Home(){
                 </div>
             </section>
             <section id="Team">
-                <h1>The Team</h1>
+                <h1>Our Team</h1>
                 <div className="row">
                     <div className="col">
                         <div className="team-card">
-                            
+                            <div className="row">
+                                <div className="col-m">
+                                    <img className="team-logo" src={ dev } />
+                                </div>
+                                <div className="col">
+                                    <h2>Developer</h2>
+                                    <p>The Developer Team focuses on learning and innovating with their programming skills.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="col">
-
+                        <div className="team-card">
+                            <div className="row">
+                                <div className="col-m">
+                                    <img className="team-logo" src={ create } />
+                                </div>
+                                <div className="col">
+                                    <h2>Creative</h2>
+                                    <p>The Creative Team focuses on visual design, editing, and other digital art skills.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             <section id="Gallery">
-                <h1>Our Activities</h1>
+                <h1>Key Activities</h1>
                 <div className="row">
                     {galeri.map((data)=>(
                         <div className="col-m">
@@ -58,7 +78,7 @@ function Home(){
                     ))}
                 </div>
             </section>
-        </div>
+        </div>  
     )
 }
 

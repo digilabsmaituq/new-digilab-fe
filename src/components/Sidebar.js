@@ -13,14 +13,14 @@ function Sidebar(){
                 </div>
                 <div className={ isNavExpanded ? "navbar-expand expand-nav" : "navbar-expand"}>
                     <li className="nav-item-expand"><Link to="/"><UilEstate /> Home</Link></li>
-                    <li className="nav-item-expand"><a href="#"><UilUsersAlt /> Organizer</a></li>
+                    <li className="nav-item-expand"><Link to="/organizer"><UilUsersAlt /> Organizer</Link></li>
                     <li className="nav-item-expand"><a href="#"><UilSignin /> Recruitment</a></li>
                 </div>
             </div>
             <div className="sidebar">
                 <div className="nav">
                     <Link className="nav-item" to="/"><UilEstate /> Home</Link>
-                    <a className="nav-item" href="#"><UilUsersAlt /> Organizer</a>
+                    <Link className="nav-item" to="/organizer"><UilUsersAlt /> Organizer</Link>
                     <a className="nav-item" href="#"><UilSignin /> Join Us</a>
                 </div>
                 <div className="social">
