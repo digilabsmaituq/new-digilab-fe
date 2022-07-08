@@ -1,0 +1,26 @@
+[
+    {
+        "name":"M Dzaky Ghifari M",
+        "img":"https://media.discordapp.net/attachments/865094112725303346/878213605370249256/unknown.png?width=349&height=458",
+        "position":"CEO",
+        "years":"Digilab 2020"
+    },
+    {
+        "name":"Hasna Arifah",
+        "img":"https://media.discordapp.net/attachments/865094112725303346/879912800938508309/20210825_091556.jpg?width=326&height=458",
+        "position":"CTO",
+        "years":"Digilab 2021"
+    },
+    {
+        "name":"Fathir Abrar",
+        "img":"https://media.discordapp.net/attachments/865094112725303346/878150225364140072/OK-15.jpg?width=458&height=458",
+        "position":"Creative Lead",
+        "years":"Digilab 2020"
+    },
+    {
+        "name":"Barik Sunaryanto P",
+        "img":"https://media.discordapp.net/attachments/865094112725303346/878243579812786206/20210802_075525.jpg?width=343&height=457",
+        "position":"Developer Lead",
+        "years":"Digilab 2020"
+    }
+]

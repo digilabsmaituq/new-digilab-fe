@@ -7,7 +7,7 @@ import galeri from "../data/activity.json"
 import { UilLightbulbAlt } from '@iconscout/react-unicons'
 
 function Home(){
-    document.title="Digilab | Home"
+    document.title="Home - DIGILAB"
     return(
         <div className="home">
             <section id="About">

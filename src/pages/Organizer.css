@@ -1,0 +1,96 @@
+.organizer {
+    margin: 0 5%;
+}
+
+.organizer header img {
+    width: 40%;
+    height: auto;
+}
+
+.organizer header {
+    text-align: center;
+    margin: 5% 0;
+    padding: 5%;
+    background: linear-gradient(to right, #A43931, #1D4350); 
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+#People h2 {
+    margin-bottom: 0;
+}
+
+.people-card {
+    padding: 10%;
+    border-radius: 15px;
+    border: 2px solid #4c6280;
+    margin: 2% 5%;
+}
+
+.people-card:hover{
+    background-color: #2c3c4e;
+    transition: 0.2s;
+}
+
+.people-card p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(to right, #A43931, #1D4350); 
+    border-radius: 15px;
+    padding: 3%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.people-section h2:hover{
+    color: #A43931;
+    transition: 0.2s;
+}
+
+.people-bio {
+    margin: 2% 5%;
+}
+
+.people-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width:576px) {
+    .organizer {
+        margin: 0;
+    }
+
+    .organizer header{
+        padding: 26% 8%;
+    }
+
+    .organizer header img {
+        width: 80%;
+    }
+
+    .people-card{
+        background-color: #2c3c4e;
+        transition: 0.2s;
+    }
+    
+    header h1 {
+        font-size: 48px;
+    }
+}
