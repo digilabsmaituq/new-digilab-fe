@@ -1,7 +1,7 @@
 import "./Organizer.css"
 import  data from "../data/organizer.json"
 import img from "../images/business-idea.png"
-
+import { UilArrowUpRight  } from '@iconscout/react-unicons'
 
 function Organizer() {
     document.title="Organizer - DIGILAB"
@@ -30,6 +30,11 @@ function Organizer() {
                     ))}
                 </div>
             </section>
+            <div className="promote-card">
+                <h1>Interested in joining our community?</h1>
+                <p>Check out our recruitment page for more information about our membership.</p>
+                <a className="btn" href="#">Recruitment Page <UilArrowUpRight  /></a>
+            </div>
         </div>
     )
 }

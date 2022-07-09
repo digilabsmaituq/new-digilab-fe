@@ -68,7 +68,7 @@ function Home(){
                 <h1>Key Activities</h1>
                 <div className="row">
                     {galeri.map((data)=>(
-                        <div className="col-m">
+                        <div className="col-sm">
                             <div className="gallery-card">
                                 <img className="gallery-img" src={data.img} />
                                 <h2><UilLightbulbAlt /> {data.name}</h2>

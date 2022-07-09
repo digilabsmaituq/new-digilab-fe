@@ -31,6 +31,10 @@ a {
   flex-basis: 20%;
 }
 
+.col-sm {
+  flex-basis: 40%;
+}
+
 .col {
   flex-basis: 50%;
 }
@@ -53,7 +57,7 @@ a {
   .container{
     margin: 0;
   }
-  .col-s, .col-m, .col-l, .col{
+  .col-s, .col-m, .col-l, .col, .col-sm{
     flex-basis: 100%;
   }
 }
