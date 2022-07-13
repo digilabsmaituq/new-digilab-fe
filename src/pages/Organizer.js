@@ -1,6 +1,7 @@
 import "./Organizer.css"
 import  data from "../data/organizer.json"
 import img from "../images/business-idea.png"
+import { Link } from "react-router-dom"
 import { UilArrowUpRight, UilUsersAlt  } from '@iconscout/react-unicons'
 
 function Organizer() {
@@ -33,7 +34,7 @@ function Organizer() {
             <div className="promote-card">
                 <h1>Interested in joining our community?</h1>
                 <p>Check out our recruitment page for more information about our membership.</p>
-                <a className="btn" href="#">Recruitment Page <UilArrowUpRight  /></a>
+                <Link className="btn" to="/recruitment">Recruitment Page <UilArrowUpRight  /></Link>
             </div>
         </div>
     )
