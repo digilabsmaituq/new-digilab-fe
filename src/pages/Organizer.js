@@ -1,7 +1,7 @@
 import "./Organizer.css"
 import  data from "../data/organizer.json"
 import img from "../images/business-idea.png"
-import { UilArrowUpRight  } from '@iconscout/react-unicons'
+import { UilArrowUpRight, UilUsersAlt  } from '@iconscout/react-unicons'
 
 function Organizer() {
     document.title="Organizer - DIGILAB"
@@ -10,7 +10,7 @@ function Organizer() {
             <header>
                 <img src={img} />
                 <h1>Digilab Organizer</h1>
-                <p>Meet The People Who Managed Our Team</p>
+                <p>Meet The People Who Manage Our Team</p>
             </header>
             <section id="People">
                 <div className="row">

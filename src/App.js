@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Organizer from "./pages/Organizer";
+import Recruitment from "./pages/Recruitment";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/organizer" element={<Organizer />} />
+                <Route path="/recruitment" element={<Recruitment />} />
               </Routes>
               <Footer />
             </div>
