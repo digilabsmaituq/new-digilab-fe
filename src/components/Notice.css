@@ -14,6 +14,9 @@
 
 @media screen and (max-width:576px) {
     .notice {
-        margin: 5%;
+        margin: 10% 5%;
+    }
+    .notice h2 {
+        font-size: 20px;
     }
 }
