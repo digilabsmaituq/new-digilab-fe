@@ -1,6 +1,9 @@
 import "./Recruitment.css"
 import img from "../images/fist-bump-gesture.png"
 import Notice from "../components/Notice"
+//import registration here
+//import result
+
 
 function Recruitment() {
     document.title="Recruitment - DIGILAB"

@@ -1,0 +1,49 @@
+.registration .card {
+    padding: 5%;
+    border-radius: 15px 15px 0 0;
+    border: 2px solid #4c6280;
+    border-bottom: none;
+    margin: 2% 5% 0 5%;
+}
+
+.registration .description {
+    margin: 0 5% 2% 5%;
+    background-color: #2c3c4e;
+    border: 2px solid #4c6280;
+    border-top: none;
+    padding: 5%;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+.description p {
+    color: #acb6c4;
+}
+
+.registration h1 {
+    text-align: center;
+}
+
+.registration .card:hover {
+    background-color: #2c3c4e;
+    transition: 0.2s;
+}
+
+.developer-card {
+    margin: 0 auto;
+    display: block;
+    width: 57%;
+    height: auto;
+}
+
+.creative-img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+}
+
+.registration .card h1 {
+    text-align: center;
+    font-size: 28px
+}
