@@ -1,7 +1,7 @@
 import "./Sidebar.css"
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import { UilEstate, UilUsersAlt, UilUserPlus } from '@iconscout/react-unicons'
+import { UilEstate, UilUsersAlt, UilUserPlus, UilObjectGroup } from '@iconscout/react-unicons'
 
 function Sidebar(){
     const [isNavExpanded, setNavExpanded] = useState(false)
@@ -14,14 +14,16 @@ function Sidebar(){
                 <div className={ isNavExpanded ? "navbar-expand expand-nav" : "navbar-expand"}>
                     <li className="nav-item-expand"><Link to="/"><UilEstate /> Home</Link></li>
                     <li className="nav-item-expand"><Link to="/organizer"><UilUsersAlt /> Organizer</Link></li>
+                    <li className="nav-item-expand"><Link to="/probation"><UilObjectGroup /> Probation</Link></li>
                     <li className="nav-item-expand"><Link to="/recruitment"><UilUserPlus /> Recruitment</Link></li>
                 </div>
             </div>
             <div className="sidebar">
                 <div className="nav">
-                    <Link className="nav-item" to="/"><UilEstate /> Home</Link>
-                    <Link className="nav-item" to="/organizer"><UilUsersAlt /> Organizer</Link>
-                    <Link className="nav-item" to="/recruitment"><UilUserPlus /> Recruitment</Link>
+                    <Link className="nav-item" to="/">Home</Link>
+                    <Link className="nav-item" to="/organizer">Organizer</Link>
+                    <Link className="nav-item" to="/probation">Probation</Link>
+                    <Link className="nav-item" to="/recruitment">Recruitment</Link>
                 </div>
                 <div className="social">
                     <h1>Digilab SMAITUQ</h1>
