@@ -12,18 +12,18 @@ function Sidebar(){
                     <h1><button onClick={()=> {setNavExpanded(!isNavExpanded)}}><i class="bi bi-list"></i></button> Digilab</h1>
                 </div>
                 <div className={ isNavExpanded ? "navbar-expand expand-nav" : "navbar-expand"}>
-                    <li className="nav-item-expand"><Link to="/"><UilEstate /> Home</Link></li>
-                    <li className="nav-item-expand"><Link to="/organizer"><UilUsersAlt /> Organizer</Link></li>
-                    <li className="nav-item-expand"><Link to="/probation"><UilObjectGroup /> Probation</Link></li>
-                    <li className="nav-item-expand"><Link to="/recruitment"><UilUserPlus /> Recruitment</Link></li>
+                    <li className="nav-item-expand"><Link to="/"><i class="bi bi-house-fill"></i> Home</Link></li>
+                    <li className="nav-item-expand"><Link to="/organizer"><i class="bi bi-people-fill"></i> Organizer</Link></li>
+                    <li className="nav-item-expand"><Link to="/probation"><i class="bi bi-box"></i> Probation</Link></li>
+                    <li className="nav-item-expand"><Link to="/recruitment"><i class="bi bi-person-plus-fill"></i> Recruitment</Link></li>
                 </div>
             </div>
             <div className="sidebar">
                 <div className="nav">
-                    <Link className="nav-item" to="/">Home</Link>
-                    <Link className="nav-item" to="/organizer">Organizer</Link>
-                    <Link className="nav-item" to="/probation">Probation</Link>
-                    <Link className="nav-item" to="/recruitment">Recruitment</Link>
+                    <Link className="nav-item" to="/"><i class="bi bi-house-fill"></i> Home</Link>
+                    <Link className="nav-item" to="/organizer"><i class="bi bi-people-fill"></i> Organizer</Link>
+                    <Link className="nav-item" to="/probation"><i class="bi bi-box"></i> Probation</Link>
+                    <Link className="nav-item" to="/recruitment"><i class="bi bi-person-plus-fill"></i> Recruitment</Link>
                 </div>
                 <div className="social">
                     <h1>Digilab SMAITUQ</h1>
